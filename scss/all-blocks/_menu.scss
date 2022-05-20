@@ -60,6 +60,7 @@
     }
     &__starter{
         margin-left: 55px;
+        margin-bottom: 206px;
     }
     &__starter__list__item{
         display: flex;
@@ -94,6 +95,9 @@
         letter-spacing: 0.2px;
         color: #292E36;
     }
+    &__starter__titles > h4{
+        margin-top: 80px;
+    }
     &__starter__list{
         list-style: none;
     }
@@ -105,14 +109,22 @@
         display: flex;
         align-items: center;
     }
-    &__starter__contents{
+    &__starter__list__box__currency{
+        margin-top: 20px;
+        margin-left: -50px;
         display: flex;
         align-items: center;
-        margin-right: auto;
+        width: 50px;
     }
-    &__starter__contents__value{
-        margin-top: 20px;
-        margin-left: -60px;
+    &__starter__list__box__currency > img{
+        font-family: 'Cormorant Infant';
+        font-size: 30px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+        color: #292E36;
+    }
+    &__starter__list__box__currency > p{
+        padding-top: 15px;
         font-family: 'Cormorant Infant';
         font-size: 30px;
         line-height: 42px;
