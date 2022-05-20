@@ -1,0 +1,122 @@
+.menu{
+    display: flex;
+    margin-top: 145px;
+    &__special{
+        width: 486px;
+    }
+    &__title{
+        position: relative;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/Main/menu-after.svg) no-repeat;
+            top: -10px;
+            width: 60px;
+            height: 1px;
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            background: url(../../Images/Main/menu-after.svg) no-repeat;
+            bottom: 0px;
+            width: 60px;
+            height: 1px;
+        }
+    }
+    &__special__heading{
+        font-family: 'Cormorant Infant';
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+        color: #292E36;
+    }
+    &__special__desc{
+        padding-bottom: 45px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #555555;
+    }
+    &__special__box__button{
+        margin-top: 80px;
+    }
+    &__special__box__button > a{
+        padding: 20px 57px;
+        text-decoration: none;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #E1B168;
+        border: 1px solid #E1B168;
+    }
+    &__title__item{
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #292E36;
+    }
+    &__starter{
+        margin-left: 55px;
+    }
+    &__starter__list__item{
+        display: flex;
+        align-items: center;
+        margin-top: 40px;
+    }
+    &__starter__list__box__items{
+        margin-left: 20px;
+    }
+    &__starter__list__box__after{
+        padding-right: 50px;
+        margin-top: 40px;
+    }
+    &__starter__list__box__items > h5{
+        font-family: 'Cormorant Infant';
+        font-size: 30px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+        color: #292E36;
+    }
+    &__starter__list__box__items > p{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #555555;
+    }
+    &__starter__title > h4{
+        margin-top: 35px;
+        font-family: 'Cormorant Infant';
+        font-size: 36px;
+        line-height: 50px;
+        letter-spacing: 0.2px;
+        color: #292E36;
+    }
+    &__starter__list{
+        list-style: none;
+    }
+    &__starter__list__box{
+        display: flex;
+        align-items: center;
+    }
+    &__starter__list__box__images{
+        display: flex;
+        align-items: center;
+    }
+    &__starter__contents{
+        display: flex;
+        align-items: center;
+        margin-right: auto;
+    }
+    &__starter__contents__value{
+        margin-top: 20px;
+        margin-left: -60px;
+        font-family: 'Cormorant Infant';
+        font-size: 30px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+        color: #292E36;
+    }
+}

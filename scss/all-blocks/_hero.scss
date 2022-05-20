@@ -1,0 +1,33 @@
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #292E36;
+    &__intro__title{
+        font-family: 'Cormorant Infant', sans-serif;
+        font-size: 100px;
+        line-height: 110px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF
+    }
+    &__intro__description{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        width: 616px;
+    }
+    &__intro__btn > a{
+        text-decoration: none;
+        font-size: 22px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #E1B168;
+        padding: 20px 57px;
+        border: 1px solid #E1B168;
+    }
+    &__intro__btn{
+        margin-top: 45px;
+    }
+}

@@ -1,0 +1,45 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF8F5;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    &__list{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__list__item{
+        display: flex;
+        align-items: center;
+    }
+    &__list__item__icon{
+        margin-right: 20px;
+    }
+    &__list__item__contents{
+        padding-top: 10px;
+    }
+    &__list__item__contents > h3{
+        font-family: 'Cormorant Infant', sans-serif;
+        font-style: normal;
+        font-size: 30px;
+        line-height: 39px;
+        letter-spacing: 0.2px;
+        color: #292E36;
+    }
+    &__list__item__contents > p{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #555555;
+    }
+    &__list__item__contents > a{
+        text-decoration: none;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #555555;
+    }
+}
