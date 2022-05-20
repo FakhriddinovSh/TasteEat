@@ -132,3 +132,14 @@
         color: #292E36;
     }
 }
+
+
+.article{
+    display: flex;
+    width: 100%;
+    margin-bottom: 145px;
+    &__image{
+        width: 100%;
+        background-size: contain;
+    }
+}

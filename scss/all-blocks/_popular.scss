@@ -1,0 +1,48 @@
+.popular__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    &__item{
+        width: 318px;
+    }
+    &__item__cost{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        padding-top: 9px;
+        padding-bottom: 11px;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/Main/popular-after.svg) no-repeat;
+            width: 100%;
+            height: 2px;
+            bottom: 15px;
+        }
+    }
+    &__item__name{
+        font-family: 'Cormorant Infant';
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+        color: #292E36;
+    }
+    &__item__price{
+        font-family: 'Cormorant Infant';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 42px;
+        letter-spacing: 0.2px;
+        color: #292E36;
+    }
+    &__item__description{
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #555555;
+        text-align: start;
+    }
+}
