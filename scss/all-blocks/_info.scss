@@ -1,0 +1,78 @@
+.info{
+    background: #292E36;
+    &__box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    // &__box__contents{
+    //     padding-top: 146px;
+    // }
+    &__box__contents__title{
+        position: relative;
+        font-size: 15px;
+        line-height: 22px;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        &::after{
+            position: absolute;
+            content: "";
+            background: url(../../Images/Main/services-after.svg) no-repeat;
+            width: 500px;
+            height: 20px;
+            top: -10px;
+            left: 0;
+        }
+        &::before{
+            position: absolute;
+            content: "";
+            background: url(../../Images/Main/services-after.svg) no-repeat;
+            width: 500px;
+            height: 20px;
+            bottom: -20px;
+            left: 0;
+        }
+    }
+    &__box__contents__heading{
+        font-family: 'Cormorant Infant', sans-serif;
+        font-size: 40px;
+        line-height: 56px;
+        letter-spacing: 0.2px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+    &__box__contents__description{
+        width: 438px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+    &__box__cards{
+        display: flex;
+        margin-top: 148px;
+    }
+    &__box__cards__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style: none;
+    }
+    &__box__cards__list__item:nth-child(1), &__box__cards__list__item:nth-child(2), &__box__cards__list__item:nth-child(3){
+        margin-right: 30px;
+        margin-bottom: 140px;
+        background: url(../../Images/Main/calendar.svg) no-repeat;
+        width: 254px;
+        height: 235px;
+    }
+    &__box__cards__list__item > h5{
+        padding-top: 150px;
+        font-family: 'Cormorant Infant', sans-serif;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+    }
+}
