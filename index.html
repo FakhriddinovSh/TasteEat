@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Fvicon icon" href="/Images/Header/">
     <title>TasteEat</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant&family=Josefin+Sans&display=swap"
         rel="stylesheet">
@@ -75,8 +75,6 @@
     </header>
     <!-- Header finished -->
 
-    <div id="story"></div>
-
     <!-- Main started -->
     <main>
         <!-- Hero started -->
@@ -96,7 +94,7 @@
                     </div>
 
                     <div class="hero__intro__img">
-                        <img src="./Images/Main/Bg-image.jpg" alt="">
+                        <img src="./Images/Main/hero-bg.jpg" width="758" height="790" alt="">
                     </div>
                 </div>
             </div>
@@ -483,8 +481,10 @@
         <!-- Comments finished -->
 
         <article>
+            <h3 class="visuall-hidden">Additional</h3>
             <div class="article">
-                <img class="article__image" src="./Images/Main/Lustre.jpg" alt="Lustre image in the restaurant">
+                <img class="article__image" src="./Images/Main/Lustre.jpg" width="1440" height="600"
+                    alt="Lustre image in the restaurant">
             </div>
         </article>
 
@@ -698,20 +698,108 @@
                 </div>
             </div>
         </section>
-        <!-- Contact us finished -->
+        <!-- Co ntact us finished -->
     </main>
     <!-- Main finished -->
 
     <!-- Footer started -->
     <footer>
-        <div class="">
-            <div class=" container"></div>
+        <div class="footer">
+            <div class="footer__top container">
+                <div class="footer__top__left">
+                    <h3>#TheTastEat</h3>
+                </div>
+
+                <div class="footer__top__center">
+                    <a href="./index.html">
+                        <img src="./Images/Header/site-logo.svg" width="378" height="188" alt="Website's logo">
+                    </a>
+                    <p class="footer__top__center__description">
+                        Join our mailing list for updates, Get news & offers events.
+                    </p>
+                </div>
+
+                <div class="footer__box">
+                    <ul class="footer__top__right__list">
+                        <li class="footer__top__right__list__item">
+                            <a href="#">
+                                <img src="./Images/Footer/twitter.svg" width="24" height="23" alt="icons">
+                            </a>
+                        </li>
+                        <li class="footer__top__right__list__item">
+                            <a href="#">
+                                <img src="./Images/Footer/instagram.svg" width="24" height="23" alt="icons">
+                            </a>
+                        </li>
+                        <li class="footer__top__right__list__item">
+                            <a href="#">
+                                <img src="./Images/Footer/facebook.svg" width="24" height="23" alt="icons">
+                            </a>
+                        </li>
+                        <li class="footer__top__right__list__item">
+                            <a href="#">
+                                <img src="./Images/Footer/pinterest.svg" width="24" height="23" alt="icons">
+                            </a>
+                        </li>
+                    </ul>
+                    <h3 class="footer__box__content">Working Hours</h3>
+                </div>
+            </div>
+
+            <div class="footer__middle container">
+                <div class="footer__middle__left">
+                    <h4 class="footer__middle__title">Contact</h4>
+                    <address class="footer__middle__address">5 Rue Dalou, 75015 Paris</address>
+                    <a class="footer__middle__left__tel" href="tel:+123456789">+123 456 789</a>
+                    <a class="footer__middle__mail" href="mailto:josefin@mail.com">josefin@mail.com</a>
+                </div>
+
+                <div class="footer__middle__center">
+                    <form method="get">
+                        <input class="footer__middle__input" type="email" placeholder="Email" autocomplete="on">
+                        <a class="footer__middle__subscribe" href="#">Subscribe</a>
+                    </form>
+                </div>
+
+                <div class="footer__middle__left">
+                    <p class="footer__middle__description">
+                        <span class="footer__middle__days">Mon – Fri:</span>7.00am – 6.00pm
+                    </p>
+                    <p class="footer__middle__description">
+                        <span class="footer__middle__days">Sat:</span>7.00am – 6.00pm
+                    </p>
+                    <p class="footer__middle__description">
+                        <span class="footer__middle__days">Sun:</span>8.00am – 6.00pm
+                    </p>
+                </div>
+            </div>
+            <hr style="background: #aeafb2;">
+
+            <div class="footer__bottom container">
+                <div class="footer__bottom__info">
+                    <p class="footer__info__description">© Copyright - TastEat | Designed by</p>
+                    <p class="footer__info__description">
+                        <span class="footer__middle__days">VictorFlow</span>-Powered by <span
+                            class="footer__middle__days">Webflow</span>
+                    </p>
+                </div>
+                <ul class="footer__bottom__list">
+                    <li class="footer__bottom__list__item">
+                        <a href="#">Styleguide</a>
+                    </li>
+
+                    <li class="footer__bottom__list__item">
+                        <a href="#">Licenses</a>
+                    </li>
+
+                    <li class="footer__bottom__list__item">
+                        <a href="#">Protected</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
     <!-- Footer finished -->
-
-
-
 
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>

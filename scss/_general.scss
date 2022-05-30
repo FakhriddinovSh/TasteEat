@@ -10,10 +10,21 @@ html{
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 ol, ul{
     padding-left: 0px;
+}
+
+.visuall-hidden{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 
 // font-family: 'Cormorant Infant', serif;
